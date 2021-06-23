@@ -1,5 +1,5 @@
 #!/bin/bash
-# pidiauqez @ DSE 2021-06-23  topify reads top.out from multidump.sh prints hex threadid from pids with high cpu
+# pidiaquez @ DSE 2021-06-23  topify reads top.out from multidump.sh prints hex threadid from pids with high cpu
 # apply 2 filters
 # filter TOP 5 pid/therads from each top round 
 # filter only threads which had cpu > 10%  

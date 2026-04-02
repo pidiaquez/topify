@@ -186,9 +186,8 @@ network_policies:
         rules:
           - allow: { method: GET, path: "/**" }
     binaries:
-      - { path: /usr/local/bin/node }
-
-network_policies:
+     - { path: /usr/local/bin/node }
+ 
   ssh_local:
     name: "local-ssh-access"
     endpoints:

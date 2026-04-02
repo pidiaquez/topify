@@ -185,6 +185,8 @@ network_policies:
         tls: terminate
         rules:
           - allow: { method: GET, path: "/**" }
+    binaries:
+      - { path: /usr/local/bin/node }
 
 network_policies:
   ssh_local:
@@ -197,5 +199,3 @@ network_policies:
       - { path: /usr/bin/ssh }
       - { path: /usr/bin/scp }
       - { path: /usr/bin/curl }
-    binaries:
-      - { path: /usr/local/bin/node }
